@@ -9,14 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    Text("Hello World")
+    NavigationView {
+      HStack(alignment: .top, spacing: 10) {
+        VStack {
+          TeamsPartial()
+          Spacer()
+          RoundPartial()
+          Spacer()
+          ScoresPartial()
+          Spacer()
+        }
+      }
+      .navigationBarHidden(true)
+    }
   }
 }
 
 #if DEBUG
+  let GAME_STORE = GameStore()
+
   struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-      ContentView()
+      ContentView().environmentObject(GAME_STORE)
     }
   }
 #endif

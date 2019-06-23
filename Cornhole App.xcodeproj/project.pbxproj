@@ -13,6 +13,15 @@
 		7448C3E522BFD8BB00DBDD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7448C3E422BFD8BB00DBDD78 /* Assets.xcassets */; };
 		7448C3E822BFD8BB00DBDD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7448C3E722BFD8BB00DBDD78 /* Preview Assets.xcassets */; };
 		7448C3EB22BFD8BB00DBDD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7448C3E922BFD8BB00DBDD78 /* LaunchScreen.storyboard */; };
+		7448C40022BFD92000DBDD78 /* Round.partial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3F522BFD92000DBDD78 /* Round.partial.swift */; };
+		7448C40122BFD92000DBDD78 /* Scores.partial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3F622BFD92000DBDD78 /* Scores.partial.swift */; };
+		7448C40222BFD92000DBDD78 /* TeamScoreModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3F722BFD92000DBDD78 /* TeamScoreModal.swift */; };
+		7448C40322BFD92000DBDD78 /* Teams.partial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3F822BFD92000DBDD78 /* Teams.partial.swift */; };
+		7448C40422BFD92000DBDD78 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3FA22BFD92000DBDD78 /* Label.swift */; };
+		7448C40522BFD92000DBDD78 /* TeamScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3FB22BFD92000DBDD78 /* TeamScorer.swift */; };
+		7448C40622BFD92000DBDD78 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3FC22BFD92000DBDD78 /* Team.swift */; };
+		7448C40722BFD92000DBDD78 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3FE22BFD92000DBDD78 /* GameStore.swift */; };
+		7448C40822BFD92000DBDD78 /* RoundStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448C3FF22BFD92000DBDD78 /* RoundStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		7448C3E722BFD8BB00DBDD78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7448C3EA22BFD8BB00DBDD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7448C3EC22BFD8BB00DBDD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7448C3F522BFD92000DBDD78 /* Round.partial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.partial.swift; sourceTree = "<group>"; };
+		7448C3F622BFD92000DBDD78 /* Scores.partial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scores.partial.swift; sourceTree = "<group>"; };
+		7448C3F722BFD92000DBDD78 /* TeamScoreModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScoreModal.swift; sourceTree = "<group>"; };
+		7448C3F822BFD92000DBDD78 /* Teams.partial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teams.partial.swift; sourceTree = "<group>"; };
+		7448C3FA22BFD92000DBDD78 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		7448C3FB22BFD92000DBDD78 /* TeamScorer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamScorer.swift; sourceTree = "<group>"; };
+		7448C3FC22BFD92000DBDD78 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		7448C3FE22BFD92000DBDD78 /* GameStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		7448C3FF22BFD92000DBDD78 /* RoundStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +104,42 @@
 		7448C3F322BFD8FA00DBDD78 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				7448C3F922BFD92000DBDD78 /* Components */,
+				7448C3F422BFD92000DBDD78 /* Partials */,
+				7448C3FD22BFD92000DBDD78 /* Stores */,
 				7448C3E222BFD8B700DBDD78 /* ContentView.swift */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		7448C3F422BFD92000DBDD78 /* Partials */ = {
+			isa = PBXGroup;
+			children = (
+				7448C3F522BFD92000DBDD78 /* Round.partial.swift */,
+				7448C3F622BFD92000DBDD78 /* Scores.partial.swift */,
+				7448C3F722BFD92000DBDD78 /* TeamScoreModal.swift */,
+				7448C3F822BFD92000DBDD78 /* Teams.partial.swift */,
+			);
+			path = Partials;
+			sourceTree = "<group>";
+		};
+		7448C3F922BFD92000DBDD78 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7448C3FA22BFD92000DBDD78 /* Label.swift */,
+				7448C3FB22BFD92000DBDD78 /* TeamScorer.swift */,
+				7448C3FC22BFD92000DBDD78 /* Team.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7448C3FD22BFD92000DBDD78 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				7448C3FE22BFD92000DBDD78 /* GameStore.swift */,
+				7448C3FF22BFD92000DBDD78 /* RoundStore.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +235,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7448C3DF22BFD8B700DBDD78 /* AppDelegate.swift in Sources */,
+				7448C40722BFD92000DBDD78 /* GameStore.swift in Sources */,
+				7448C40022BFD92000DBDD78 /* Round.partial.swift in Sources */,
+				7448C40522BFD92000DBDD78 /* TeamScorer.swift in Sources */,
 				7448C3E122BFD8B700DBDD78 /* SceneDelegate.swift in Sources */,
+				7448C40222BFD92000DBDD78 /* TeamScoreModal.swift in Sources */,
+				7448C40122BFD92000DBDD78 /* Scores.partial.swift in Sources */,
 				7448C3E322BFD8B700DBDD78 /* ContentView.swift in Sources */,
+				7448C40822BFD92000DBDD78 /* RoundStore.swift in Sources */,
+				7448C40422BFD92000DBDD78 /* Label.swift in Sources */,
+				7448C40622BFD92000DBDD78 /* Team.swift in Sources */,
+				7448C40322BFD92000DBDD78 /* Teams.partial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

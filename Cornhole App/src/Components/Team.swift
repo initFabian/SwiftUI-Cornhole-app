@@ -30,9 +30,6 @@ struct Team: View {
       }
     }
     .foregroundColor(.black)
-    .onDisappear {
-      print("sdf")
-    }
   }
 }
 
